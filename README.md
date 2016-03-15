@@ -19,6 +19,12 @@ The component can also be used as a single date picker by setting the
 **[View some examples](http://www.daterangepicker.com/)** or
 **[Try it in a live application](https://awio.iljmp.com/5/drpdemogh)**
 
+## Quick Background
+
+BreadMaker forked Dan Grossman's bootstrap version of this at https://github.com/BreadMaker/semantic-ui-daterangepicker in order to provide a pure semantic-ui version of this great component.  This was good but not maintained.  The latest code wasn't even pushed to bower so actually using this component is a manual deal.  So, I'm forking it and updating everything to get it working and registering it to bower.  Since semantic-ui-daterangepicker I'm going to use semantic-datepicker as the name.  It's more accurate anyway because this component supports a simple datepicker as well.  I'll try to keep this functional so people can use it, but I'm not going to invest a lot of time and maintain it carefully.
+
+Help is greatly appreciated, I'm likely to merge pull requests with minimal oversight, so submit careful ones : )  Especially to this README, it's in need of some love after this components triple move.
+
 ## Usage
 
 This component relies on [Semantic UI](http://semantic-ui.com/),
@@ -28,10 +34,11 @@ Basic usage:
 
 ```
 <script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="semantic-ui.js"></script>
 <script type="text/javascript" src="moment.js"></script>
 <script type="text/javascript" src="daterangepicker.js"></script>
-<link rel="stylesheet" type="text/css" href="bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="semantic-ui.css" />
+<link rel="stylesheet" type="text/css" href="daterangepicker.css" />
 
 <script type="text/javascript">
 $(document).ready(function() {
