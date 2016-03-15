@@ -1,6 +1,6 @@
 {
   "name": "semantic-datepicker",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Date picker component for Semantic UI.  Supports single date and date range picking, almost entirely copied from Dan Grossman's Bootstrap version.",
   "main": [
     "daterangepicker.js",
