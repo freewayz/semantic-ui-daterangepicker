@@ -20,9 +20,10 @@
     "url": "https://github.com/milimetric/semantic-ui-daterangepicker/issues"
   },
   "homepage": "https://github.com/milimetric/semantic-ui-daterangepicker",
-  "engines": {
-    "node": "0.10.24",
-    "nmp": "3.5.2"
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "semantic-ui": "^2.2.4",
+    "moment": "^2.15.1"
   },
   "devDependencies": {
     "del": "^1.2.0",
